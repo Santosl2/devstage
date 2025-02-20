@@ -6,6 +6,8 @@
 
 This project is a referral system for a DevStage event. It allows users to register for the event and share a unique link to invite others. The system tracks referrals and displays a ranking of participants who have brought in the most new registrations.
 
+This project utilizes Redis for user ranking, leveraging functions such as `HINCRBY`, `ZREVRANGE`, `ZSCORE`, and `ZINCRBY` to efficiently manage and retrieve ranking data in real time.
+
 ## Technologies Used
 
 - **Front-end**: React.js, Next.js, Tailwind CSS
